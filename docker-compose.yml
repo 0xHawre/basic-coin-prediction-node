@@ -30,7 +30,7 @@ services:
       sh -c "
       while true; do
         python -u /app/update_app.py;
-        sleep 24h;
+        sleep 20s;
       done
       "
     depends_on:
